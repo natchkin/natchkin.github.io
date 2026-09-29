@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natchkin Period Pocket Stack - Information Portal</title>
+    <title>Natchkin Period Pocket Stack</title>
     <style>
         :root {
             --brand-green: #023D2A;
@@ -23,15 +23,16 @@
             padding: 0; 
         }
 
-        /* Top Minimal Banner */
+        /* 1st CHANGE: Updated banner background color to match body green, with white text */
         .promo-bar {
-            background-color: var(--brand-mint);
-            color: var(--brand-green);
+            background-color: var(--brand-green);
+            color: #ffffff;
             text-align: center;
-            padding: 8px 10px;
+            padding: 12px 10px;
             font-size: 13px;
             font-weight: bold;
             letter-spacing: 0.5px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .container { 
@@ -75,7 +76,7 @@
             }
         }
 
-        /* Photo Presentation Layout */
+        /* Photo Presentation Layout for keeping all 7 images standard */
         .image-gallery { 
             display: flex; 
             flex-direction: column; 
@@ -104,17 +105,9 @@
         /* Right Column Typography & Data Styles */
         h1 { 
             font-size: 28px; 
-            margin: 0 0 5px 0; 
+            margin: 0 0 25px 0; 
             color: var(--brand-green);
             font-weight: 700;
-        }
-        .brand-subtitle {
-            color: var(--text-muted);
-            font-size: 13px;
-            margin: 0 0 25px 0;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 600;
         }
 
         .section-title { 
@@ -146,6 +139,7 @@
             text-align: left;
             padding: 10px 8px;
             border-bottom: 1px solid var(--border-color);
+            vertical-align: top;
         }
         .info-table th {
             color: var(--text-muted);
@@ -163,7 +157,7 @@
             padding: 15px;
             border-radius: 8px;
             border-left: 3px solid var(--brand-green);
-            margin-top: 5px;
+            margin-top: 15px;
         }
         .contact-link {
             color: var(--brand-green);
@@ -184,12 +178,13 @@
             color: #a3c2b8; 
             margin-top: 35px; 
             padding-bottom: 20px;
+            line-height: 1.8;
         }
     </style>
 </head>
 <body>
 
-    <!-- Simple Top Accent Banner -->
+    <!-- Top Accent Banner with matching theme styles -->
     <div class="promo-bar">
         Hey Bestie! We make pads you'll literally forget you're wearing!
     </div>
@@ -204,21 +199,25 @@
         <!-- Layout Wrapper -->
         <div class="product-layout">
             
-            <!-- Left Panel: Clear Graphic Layout -->
+            <!-- Left Panel: Clear Graphic Layout incorporating new product images (1 through 7) -->
             <div class="left-column">
                 <div class="image-gallery">
-                    <img src="productimage1.png" alt="Natchkin Period Pocket Stack Front" class="main-img">
+                    <img src="productimage1.png" alt="Natchkin Period Pocket Stack Main View" class="main-img">
                     <div class="sub-grid">
                         <img src="productimage2.png" alt="Natchkin Period Pocket Stack View 2" class="sub-img">
                         <img src="productimage3.png" alt="Natchkin Period Pocket Stack View 3" class="sub-img">
+                        <img src="productimage4.png" alt="Natchkin Period Pocket Stack View 4" class="sub-img">
+                        <img src="productimage5.png" alt="Natchkin Period Pocket Stack View 5" class="sub-img">
+                        <img src="productimage6.png" alt="Natchkin Period Pocket Stack View 6" class="sub-img">
+                        <img src="productimage7.png" alt="Natchkin Period Pocket Stack View 7" class="sub-img">
                     </div>
                 </div>
             </div>
 
             <!-- Right Panel: Core Product Disclosures -->
             <div class="right-column">
+                <!-- 2nd CHANGE: Heading stands clean alone; "Product Documentation Hub" label completely removed -->
                 <h1>Natchkin Period Pocket Stack</h1>
-                <div class="brand-subtitle">Product Documentation Hub</div>
 
                 <div class="section-title">Description</div>
                 <div class="description-block">
@@ -229,6 +228,8 @@
                 <div class="section-title">Product Details</div>
                 <table class="info-table">
                     <tr><th>Product</th><td>Natchkin Period Pocket</td></tr>
+                    <!-- Added Batch No. row directly underneath product name -->
+                    <tr><th>Batch No.</th><td>DM2711-04</td></tr>
                     <tr><th>Material / Pad Feature</th><td>Cotton-soft top layer</td></tr>
                     <tr><th>Fragrance</th><td>No artificial fragrance</td></tr>
                     <tr><th>Phthalates</th><td>Phthalate-free</td></tr>
@@ -238,30 +239,28 @@
                     <tr><th>Weight</th><td>35 g</td></tr>
                 </table>
 
-                <div class="section-title">Manufacturing Information</div>
+                <div class="section-title">Manufacturing & Marketing Information</div>
                 <table class="info-table">
+                    <!-- 3rd CHANGE: Added new marketing compliance information and business mapping entries -->
+                    <tr><th>Marketed By</th><td>Mandareen Consumer Private Limited</td></tr>
+                    <tr><th>Marketing Address</th><td>B13/1580, Lakhi Colony, Naneksar Bypass, Barnala Punjab 148101</td></tr>
                     <tr><th>Manufactured By</th><td>Dada Organics Limited</td></tr>
-                    <tr><th>Address</th><td>Rachna Industrial Zone - 3, Plot No. 35, Padavala, Lothada, Gujarat 360024</td></tr>
-                    <tr><th>Batch No.</th><td>DM2711-04, DM0112-01</td></tr>
-                    <tr><th>Timeline</th><td>Mfg: 11/2025 | Expiry: 11/2028</td></tr>
-                    <tr><th>Country of Origin</th><td>India</td></tr>
+                    <tr><th>Manufacturing Address</th><td>Rachna Industrial Zone - 3, Plot No. 35, Padavala, Lothada, Gujarat 360024</td></tr>
                 </table>
 
-                <div class="section-title">Customer Support Helpline</div>
+                <div class="section-title">Customer Support</div>
                 <div class="contact-box">
-                    <div>Have questions or need assistance? Reach out directly to our helpdesk:</div>
-                    <a href="mailto:care@natchkin.in" class="contact-link">📧 Email: care@natchkin.in</a>
-                    <a href="tel:+916284668482" class="contact-link">📞 Phone: +91 62846 68482</a>
+                    <p style="margin: 0; font-size: 14px; color: var(--text-dark);">Need assistance regarding compliance data or product feedback?</p>
+                    <a href="mailto:support@natchkin.com" class="contact-link">Email Support</a>
+                    <a href="/contact" class="contact-link">Contact Form</a>
                 </div>
             </div>
-
         </div>
 
+        <!-- Operational Trust Anchor Footer -->
         <div class="footer">
-            © Natchkin Permanent Product Information System.<br>
-            Secure, ad-free hardware trace archive link.
+            &copy; 2026 Mandareen Consumer Private Limited. All rights reserved.
         </div>
-
     </div>
 
 </body>
