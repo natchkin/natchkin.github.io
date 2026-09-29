@@ -23,7 +23,7 @@
             padding: 0; 
         }
 
-        /* 1st CHANGE: Updated banner background color to match body green, with white text */
+        /* Top Minimal Banner */
         .promo-bar {
             background-color: var(--brand-green);
             color: #ffffff;
@@ -76,7 +76,7 @@
             }
         }
 
-        /* Photo Presentation Layout for keeping all 7 images standard */
+        /* Photo Presentation Layout */
         .image-gallery { 
             display: flex; 
             flex-direction: column; 
@@ -151,13 +151,13 @@
             font-weight: 500;
         }
 
-        /* Support Panel */
+        /* Support Panel Style restored to simple, original inline look */
         .contact-box {
             background: #f4f7f5;
             padding: 15px;
             border-radius: 8px;
             border-left: 3px solid var(--brand-green);
-            margin-top: 15px;
+            margin-top: 5px;
         }
         .contact-link {
             color: var(--brand-green);
@@ -184,7 +184,7 @@
 </head>
 <body>
 
-    <!-- Top Accent Banner with matching theme styles -->
+    <!-- Top Accent Banner -->
     <div class="promo-bar">
         Hey Bestie! We make pads you'll literally forget you're wearing!
     </div>
@@ -199,7 +199,7 @@
         <!-- Layout Wrapper -->
         <div class="product-layout">
             
-            <!-- Left Panel: Clear Graphic Layout incorporating new product images (1 through 7) -->
+            <!-- Left Panel: Graphic Layout with all 7 product images -->
             <div class="left-column">
                 <div class="image-gallery">
                     <img src="productimage1.png" alt="Natchkin Period Pocket Stack Main View" class="main-img">
@@ -216,7 +216,6 @@
 
             <!-- Right Panel: Core Product Disclosures -->
             <div class="right-column">
-                <!-- 2nd CHANGE: Heading stands clean alone; "Product Documentation Hub" label completely removed -->
                 <h1>Natchkin Period Pocket Stack</h1>
 
                 <div class="section-title">Description</div>
@@ -228,7 +227,6 @@
                 <div class="section-title">Product Details</div>
                 <table class="info-table">
                     <tr><th>Product</th><td>Natchkin Period Pocket</td></tr>
-                    <!-- Added Batch No. row directly underneath product name -->
                     <tr><th>Batch No.</th><td>DM2711-04</td></tr>
                     <tr><th>Material / Pad Feature</th><td>Cotton-soft top layer</td></tr>
                     <tr><th>Fragrance</th><td>No artificial fragrance</td></tr>
@@ -241,18 +239,17 @@
 
                 <div class="section-title">Manufacturing & Marketing Information</div>
                 <table class="info-table">
-                    <!-- 3rd CHANGE: Added new marketing compliance information and business mapping entries -->
                     <tr><th>Marketed By</th><td>Mandareen Consumer Private Limited</td></tr>
                     <tr><th>Marketing Address</th><td>B13/1580, Lakhi Colony, Naneksar Bypass, Barnala Punjab 148101</td></tr>
                     <tr><th>Manufactured By</th><td>Dada Organics Limited</td></tr>
                     <tr><th>Manufacturing Address</th><td>Rachna Industrial Zone - 3, Plot No. 35, Padavala, Lothada, Gujarat 360024</td></tr>
                 </table>
 
+                <!-- Customer Support section restored to display normal phone number and email tags -->
                 <div class="section-title">Customer Support</div>
                 <div class="contact-box">
-                    <p style="margin: 0; font-size: 14px; color: var(--text-dark);">Need assistance regarding compliance data or product feedback?</p>
-                    <a href="mailto:support@natchkin.com" class="contact-link">Email Support</a>
-                    <a href="/contact" class="contact-link">Contact Form</a>
+                    <a href="mailto:care@mandareen.com" class="contact-link">care@mandareen.com</a>
+                    <a href="tel:+911615550199" class="contact-link">+91 161 555 0199</a>
                 </div>
             </div>
         </div>
